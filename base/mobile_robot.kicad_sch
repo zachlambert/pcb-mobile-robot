@@ -5324,7 +5324,7 @@
     (property "Reference" "U4" (id 0) (at 324.358 50.038 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "L298HN" (id 1) (at 319.913 83.058 0)
+    (property "Value" "L298N" (id 1) (at 319.913 83.058 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical" (id 2) (at 315.468 83.058 0)
@@ -5695,7 +5695,7 @@
     (in_bom yes) (on_board yes)
     (uuid b6955664-2ce3-4f83-9c6d-dc28d966ef71)
     (property "Reference" "J3" (id 0) (at 344.17 30.226 0))
-    (property "Value" "Motor Power" (id 1) (at 344.17 38.354 0))
+    (property "Value" "AMASS XT60PW" (id 1) (at 342.392 38.354 0))
     (property "Footprint" "Connector_AMASS:AMASS_XT60PW-M" (id 2) (at 344.17 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -6762,7 +6762,7 @@
       (reference "J2") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical")
     )
     (path "/b6955664-2ce3-4f83-9c6d-dc28d966ef71"
-      (reference "J3") (unit 1) (value "Motor Power") (footprint "Connector_AMASS:AMASS_XT60PW-M")
+      (reference "J3") (unit 1) (value "AMASS XT60PW") (footprint "Connector_AMASS:AMASS_XT60PW-M")
     )
     (path "/cbe1ab7d-4e0c-4855-ae81-c83b98288cb5"
       (reference "J4") (unit 1) (value "Conn_01x06") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
@@ -6870,7 +6870,7 @@
       (reference "U3") (unit 1) (value "MPU-6050") (footprint "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm")
     )
     (path "/8a7323b1-0518-441d-ad43-c25c2f1e751d"
-      (reference "U4") (unit 1) (value "L298HN") (footprint "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical")
+      (reference "U4") (unit 1) (value "L298N") (footprint "Package_TO_SOT_THT:TO-220-15_P2.54x2.54mm_StaggerOdd_Lead4.58mm_Vertical")
     )
     (path "/b9dc75f3-e8e4-4a46-9b6e-c33865328879"
       (reference "U5") (unit 1) (value "OP07") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
